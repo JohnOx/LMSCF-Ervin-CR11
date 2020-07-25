@@ -1,0 +1,106 @@
+* {box-sizing: border-box}
+
+html,
+body{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  width: 100%;
+  font-family: "Rajdhani";
+  color: #333;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: 20px auto;
+  width: 50%;
+  background-color: white;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+.form_header {
+  text-align: center;
+  background: #1a1a1a;
+  padding: 20px;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+.form_header > h1 {
+  font-size: 4em;
+  margin: 0;
+  color: white;
+  text-decoration: underline;
+}
+
+.form_header > p {
+  color: #EE6C4D;
+}
+
+.form_fields {
+  padding: 30px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 1px solid lightgray;
+  background: white;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 55px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #fff;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.registerbtn:hover {
+  opacity:1;
+  background-color: #EE6C4D;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+/* Error ausgabe */
+.reg_error {
+  color: red;
+  padding-left: 30px;
+}
+
+.pwd_info {
+  font-size: 0.7em;
+  margin-top: 0;
+}
